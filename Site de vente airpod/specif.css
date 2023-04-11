@@ -1,0 +1,155 @@
+
+:root{
+    --violet:  #d33bfd;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+header nav{
+    padding: 30px 5% 0% 5% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1{
+    margin: 0;
+    color: var(--violet);
+}
+
+header nav .navbar{
+    display: flex;
+    align-items: center;
+}
+
+header nav .navbar p{
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+
+header nav .navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header nav .navbar a:hover{
+    text-decoration: underline;
+    color: var(--violet);
+}
+
+header nav .navbar button{
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: inherit;
+    border: 1px solid var(--violet);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--violet);
+    transform: color 0.5s, background-color 0.5s;
+}
+
+header nav .navbar button:hover{
+    color: inherit;
+    background-color: var(--violet);
+}
+
+.baniere h1{
+    margin-top: 70px;
+    font-size: 3vw;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.baniere .auto-typing{
+    color: var(--violet);
+}
+
+.baniere .level h2{
+    color: black;
+}
+
+.baniere .level p{
+    color: black;
+    font-size: 20px;
+}
+
+.baniere{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.baniere .image img{
+    padding-right: 90px;
+}
+
+.baniere .level ul{
+    color: black;
+}
+
+.airpod .connexion h2{
+    color: var(--violet);
+    text-align: center;
+    font-size: 30px;
+}
+
+.airpod .connexion h3{
+    color: black;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.airpod .connexion ol{
+    color: black;
+    margin-left: 45px;
+}
+
+.airpod .icaractere {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.airpod .titre{
+    color: var(--violet);
+    text-align: center;
+    margin: 45px;
+    font-size: 30px;
+}
+
+.fiche .fichend{
+    color: var(--violet);
+    text-align: center;
+    margin: 45px;
+    font-size: 30px;
+}
+
+footer{
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+footer h3{
+    color: var(--violet);
+}
+
+footer p{
+    cursor: pointer;
+    color: #ccc;
+}
+
+footer p:hover{
+    color: white;
+}
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PodShop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>PODSHOP</h1>
+            <div class="right">
+                <a href="#"><p>Acceuil</p></a>
+                <a href="#"><p>Présentation</p></a>
+                <a href="#"><p>Contact</p></a>
+                <button>Acheter</button>
+            </div>
+        </nav>
+    </header>
+
+        <main>
+        <section class="presentation-first" id="first">
+            <div class="product-presentation">
+                <h1>Ecouter de la musique, c'est vivre sa passion</h1>
+                <p>
+                    les AirPods d'Apple sont les écouteurs sans fil les plus populaires du marché, et pour une bonne raison.<br>
+                    La qualité sonore des AirPods est tout simplement exceptionnelle, grace à leurs haut-parleurs personnalisés<br> 
+                    et à leurs amplificateur haute performance. Que vous écoutez de la musique, que vous regardiez un film ou<br> 
+                    passiez un appel téléphonque, vous profiterez d'un son clair et net avec une qualité de voix exeptionnelle.
+                </p>
+                <button>Acheter maintenant</button>
+                <div class="small-image">
+                    <div class="small">
+                        <img src="/image airpod/small3.jpg">
+                    </div>
+                    <div class="small">
+                        <img src="/image airpod/small4.jpg">
+                    </div>
+                    <div class="small">
+                        <img src="/image airpod/small5.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="image-presentation">
+                <img src="/image airpod/image-central.jpg" width="300px">
+            </div>
+
+        </section>
+    
+
+    <section class="presentation-first" id="second">
+        <div class="product-presentation">
+            <p class="new">Nouveau produit disponible</p>
+            <h1>La nouvelle <span class="auto-typing"></span> </h1>
+            <p>
+               Avec un design élégant et moderne, avec la technologie de capteur optique et d'accélérometre intégrée, ces AirPods<br>
+               sont incroyablement simple à utiliser il suffit de les sortir de leur étui de recharge et ils se connectent automatiquement<br>
+               à votre appareil. Ces AirPods aussi sont fait pour s'adapter à vos oreilles grace à leur design ergonomique. Vous pouvez les<br>
+               porter confortablement pendant des heures sans ressentir de la fatigue.
+            </p>
+            <button>Voir les spécification</button>
+        </div>
+        <div class="image-presentation">
+            <img src="/image airpod/section1.jpg" width="300px">
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <div class="column">
+            <h3>Aide</h3>
+            <p>contact@podshop.sn</p>
+            <p>Contactez-nous</p>
+            <p>Comment acheter</p>
+        </div>
+        <div class="column">
+            <h3>Recrutement</h3>
+            <p>business@podshop.com</p>
+            <p>Postuler en ligne</p>
+            <p>Comment faire ?</p>
+        </div>
+        <div class="column">
+            <h3>Reseaux sociaux</h3>
+            <p>Facebook</p>
+            <p>Twiter</p>
+            <p>Instagram</p>
+        </div>
+    </footer>
+
+     <!--script pour l'effet clignotant-->
+     <section>
+        <div class="overlay"></div>
+        
+        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+        <script>
+            let typed = new Typed('.auto-typing', {
+                strings: ['innovation', 'AirPod Pro 5',],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true,
+                fadeOut: true,
+                fadeOutClass: 'typed-fade-out',
+                fadeOutDelay: 500,
+            })
+        </script>
+    </section>
+    
+</body>
+</html>
